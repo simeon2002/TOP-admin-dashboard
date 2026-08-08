@@ -103,15 +103,21 @@ li {
   min-height: 100dvh;
   display: grid;
   grid-template-columns: 30rem 3fr 1fr;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: auto auto 1fr;
   row-gap: var(--space-600);
   column-gap: var(--space-600);
 }
 
-main,
 .header-container,
 .action-container {
   display: contents;
+}
+
+main {
+  display: grid;
+  grid-column: 2 / -1;
+  grid-template-columns: 4fr 2fr;
+  gap: var(--space-600);
 }
 
 .search-and-settings-container {
@@ -120,10 +126,7 @@ main,
 
 .section-project {
   grid-column: 2;
-}
-
-aside {
-  grid-column: 3;
+  grid-row: 1 / span 2;
 }
 
 /* Nav bar */
@@ -283,6 +286,10 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 /* PROJECTS SECTION */
+.section-project {
+  grid-column: 1;
+}
+
 .project-title {
   margin-bottom: var(--space-300);
 }
@@ -290,7 +297,6 @@ input[type="search"]::-webkit-search-results-decoration {
 .cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  grid-template-rows: auto 1fr auto;
   gap: var(--space-400);
 }
 
@@ -383,7 +389,6 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .section-trending {
   padding-right: var(--space-400);
-  padding-bottom: var(--space-400);
 }
 
 .trending-item {

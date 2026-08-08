@@ -196,14 +196,21 @@ li {
 .container {
   row-gap: var(--space-600);
   column-gap: var(--space-600);
-  grid-template-rows: auto auto auto;
+  grid-template-rows: auto auto 1fr;
   grid-template-columns: 30rem 3fr 1fr;
   min-height: 100dvh;
   display: grid;
 }
 
-main, .header-container, .action-container {
+.header-container, .action-container {
   display: contents;
+}
+
+main {
+  gap: var(--space-600);
+  grid-column: 2 / -1;
+  grid-template-columns: 4fr 2fr;
+  display: grid;
 }
 
 .search-and-settings-container {
@@ -211,11 +218,7 @@ main, .header-container, .action-container {
 }
 
 .section-project {
-  grid-column: 2;
-}
-
-aside {
-  grid-column: 3;
+  grid-area: 1 / 2 / span 2;
 }
 
 .nav-container {
@@ -378,13 +381,16 @@ input[type="search"]::-webkit-search-results-decoration {
   display: flex;
 }
 
+.section-project {
+  grid-column: 1;
+}
+
 .project-title {
   margin-bottom: var(--space-300);
 }
 
 .cards-container {
   gap: var(--space-400);
-  grid-template-rows: auto 1fr auto;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   display: grid;
 }
@@ -472,7 +478,6 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .section-trending {
   padding-right: var(--space-400);
-  padding-bottom: var(--space-400);
 }
 
 .trending-item {

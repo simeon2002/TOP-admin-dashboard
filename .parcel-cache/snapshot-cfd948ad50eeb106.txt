@@ -1,6 +1,6 @@
 3539
 98C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\Admin Dashboard.html134306638332721586 0
-88C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\index.html134306783404773721 0
+88C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\index.html134306796753940069 0
 129C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\caniuse-lite\data\features\fontface.js134306500694903937 0
 110C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\term-size\readme.md134306500686161572 0
 140C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\caniuse-lite\data\features\http-live-streaming.js134306500696490797 0
@@ -47,7 +47,7 @@
 126C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\@swc\helpers\_\_array_like_to_array134306500692069282 1
 134C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\caniuse-lite\data\features\readonly-attr.js134306500702113643 0
 136C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\@parcel\runtime-browser-hmr\src\HMRRuntime.js134306500685851151 0
-82C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\dist134306783395204500 1
+82C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\dist134306808618670369 1
 113C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\term-size\package.json134306500686071508 0
 141C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\@parcel\core\test\PublicMutableBundleGraph.test.js134306500690840678 0
 122C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\caniuse-lite\data\regions\IN.js134306500696959554 0
@@ -78,7 +78,7 @@
 130C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\ordered-binary\.idea\ordered-binary.iml134306500684785374 0
 103C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\lightningcss134306500686559240 1
 136C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\caniuse-lite\data\features\media-fragments.js134306500699443866 0
-88C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\styles.css134306675631767025 0
+88C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\styles.css134306808617336414 0
 107C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\msgpackr\LICENSE134306500683846510 0
 129C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\@parcel\package-manager\lib\index.d.ts134306500688784768 0
 145C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\caniuse-lite\data\features\input-autocomplete-onoff.js134306500697096512 0
@@ -624,7 +624,7 @@
 107C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\lmdb\src\env.cpp134306500691059288 0
 128C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\@parcel\resolver-default\package.json134306500685080797 0
 117C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\term-size\vendor\.DS_Store134306500683980565 0
-125C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\dist\Admin dashboard - CSS grid.3464ddca.js.map134306667633665747 0
+125C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\dist\Admin dashboard - CSS grid.3464ddca.js.map134306807201647504 0
 123C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\postcss-value-parser\lib\unit.js134306500685580830 0
 114C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\node-addon-api\index.js134306500686859674 0
 124C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\@parcel\reporter-cli\src\utils.js134306500686664437 0
@@ -1944,7 +1944,7 @@
 124C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\caniuse-lite\data\features\mp3.js134306500699811028 0
 126C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\caniuse-lite\data\features\webvr.js134306500705104124 0
 144C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\caniuse-lite\data\features\intersectionobserver-v2.js134306500697319478 0
-122C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\dist\Admin dashboard - CSS grid.1303bb05.css134306675632321943 0
+122C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\dist\Admin dashboard - CSS grid.1303bb05.css134306808618640360 0
 123C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\@parcel\transformer-posthtml\src134306500685462441 1
 122C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\@swc\helpers\_\_read_only_error134306500693172386 1
 125C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\@parcel\optimizer-swc\package.json134306500685080797 0
@@ -2644,7 +2644,7 @@
 130C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\@swc\helpers\esm\_async_to_generator.js134306500690582429 0
 133C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\@swc\helpers\esm\_await_async_generator.js134306500690602411 0
 139C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\@swc\helpers\esm\_check_private_redeclaration.js134306500690632412 0
-126C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\dist\Admin dashboard - CSS grid.1303bb05.css.map134306675632352016 0
+126C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\dist\Admin dashboard - CSS grid.1303bb05.css.map134306808618660366 0
 141C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\@swc\helpers\esm\_class_apply_descriptor_update.js134306500690685561 0
 144C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\@parcel\reporter-dev-server\lib\ServerReporter.js.map134306500688199104 0
 155C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\@swc\helpers\esm\_class_check_private_static_field_descriptor.js134306500690725568 0
@@ -3434,7 +3434,7 @@
 138C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\@parcel\core\src\requests\ParcelBuildRequest.js134306500690521899 0
 139C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\@parcel\core\src\requests\ParcelConfigRequest.js134306500690652409 0
 131C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\@parcel\core\src\requests\PathRequest.js134306500690725568 0
-121C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\dist\Admin dashboard - CSS grid.3464ddca.js134306667633631222 0
+121C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\dist\Admin dashboard - CSS grid.3464ddca.js134306807201630660 0
 133C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\@parcel\core\src\requests\TargetRequest.js134306500691696012 0
 137C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\@parcel\core\src\requests\ValidationRequest.js134306500691972137 0
 138C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\@parcel\core\src\requests\WriteBundleRequest.js134306500692210079 0
@@ -3534,7 +3534,7 @@
 106C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\.bin\semver.ps1134306500707119942 0
 118C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\.bin\update-browserslist-db134306500707224418 0
 122C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\node_modules\.bin\update-browserslist-db.ps1134306500707214417 0
-93C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\dist\index.html134306783395174322 0
+93C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\dist\index.html134306807201560131 0
 139C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\Admin Dashboard_files\Admin dashboard - CSS grid.1303bb05.css134306638327744693 0
 110C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\Admin Dashboard_files\avatar.svg134306638331439862 0
 104C:\Users\simeo\Documents\Projects\HTML and CSS\TOP\Admin dashboard - CSS grid\Admin Dashboard_files\css2134306638327579134 0
