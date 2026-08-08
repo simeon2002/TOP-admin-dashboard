@@ -64,11 +64,37 @@
 /********************************************/
 /* SPECIFIC STYLES */
 /********************************************/
+body {
+  font-family:
+    "Roboto",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+
+  font-size: var(--fs-400);
+}
+
+.iconify {
+  width: 2.4rem;
+  height: 2.4rem;
+  display: inline-block;
+}
+
+/* Overall page layout */
 .container {
   height: 100dvh;
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 30rem 3fr 1fr;
   grid-template-rows: auto auto auto;
+  gap: var(--space-400);
 }
 
 main,
@@ -84,17 +110,54 @@ main,
   grid-column: 2/-1;
 }
 
-.nav-container {
-  grid-column: 1;
-  grid-row: 1/-1;
-}
-
 .section-project {
   grid-column: 2;
 }
 
 aside {
   grid-column: 3;
+}
+
+/* Nav bar */
+.nav-container {
+  grid-column: 1;
+  grid-row: 1/-1;
+  padding: var(--space-400) 0 0 var(--space-200);
+  color: var(--clr-white);
+  background-color: var(--clr-primary-500);
+  font-size: var(--fs-500);
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-container *:not(ul) {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.nav-list > .nav-list {
+  margin-top: var(--space-300);
+}
+
+.nav-item a {
+  width: 100%;
+  font-weight: var(--fw-bold);
+  color: var(--clr-white);
+  text-decoration: none;
+  padding-block: var(--space-100);
+  /* background-color: yellow; */
+}
+
+.nav-item a .iconify {
+  flex-basis: var(--space-600);
+}
+
+.nav-title .iconify {
+  width: 4.8rem;
+  height: 4.8rem;
 }
 
 /********************************************/
@@ -104,3 +167,9 @@ aside {
 /********************************************/
 /* UTILITY / HELPER CLASSES */
 /********************************************/
+.heading-primary {
+  font-size: var(--fs-700);
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+  margin-bottom: var(--space-400);
+}

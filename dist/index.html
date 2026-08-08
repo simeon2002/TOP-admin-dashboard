@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/Admin%20dashboard%20-%20CSS%20grid.1303bb05.css">
+    <script src="//code.iconify.design/1/1.0.6/iconify.min.js" defer=""></script>
     <title>Admin Dashboard</title>
   </head>
   <body>
@@ -33,12 +34,15 @@
           </menu>
         </section>
       </header>
+
       <nav class="nav-container">
-        <h1>Icon Dashboard</h1>
+        <h1 class="heading-primary nav-title"><span class="iconify" data-icon="mdi-view-dashboard"></span> Dashboard</h1>
         <ul class="nav-list">
           <li class="nav-item"><a href="#">Home</a></li>
           <li class="nav-item"><a href="#">Profile</a></li>
-          <li class="nav-item"><a href="#">Messages</a></li>
+          <li class="nav-item">
+            <a href="#"><span class="iconify" data-icon="mdi-message"></span>Messages</a>
+          </li>
           <li class="nav-item"><a href="#">History</a></li>
           <li class="nav-item"><a href="#">Tasks</a></li>
           <li class="nav-item"><a href="#">Communities</a></li>
@@ -51,6 +55,7 @@
       </nav>
       <main>
         <section class="section-project">
+          <h2 class="heading-secondary">Your Projects</h2>
           <article class="project-card">
             <h3 class="project-card__title">Super Cool Project</h3>
             <p class="project-card__desc">
@@ -120,6 +125,7 @@
         </section>
         <aside>
           <section class="section-announcements">
+            <h2 class="heading-secondary">Announcements</h2>
             <div class="announcement">
               <p>Site Maintenance</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et esse culpa libero, corporis ipsum ab praesentium fuga iure</p>
@@ -134,6 +140,7 @@
             </div>
           </section>
           <section class="section-trending">
+            <h2 class="heading-secondary">Trending</h2>
             <p class="trending-card">
               <a href="#">
                 </a></p><p class="trending-card__img"><a href="#">icon</a></p><a href="#">
