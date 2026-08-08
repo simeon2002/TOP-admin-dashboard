@@ -126,7 +126,7 @@ aside {
 .nav-container {
   grid-column: 1;
   grid-row: 1/-1;
-  padding: var(--space-400) 0 0 var(--space-200);
+  padding: var(--space-400) var(--space-200) 0;
   color: var(--clr-white);
   background-color: var(--clr-primary-500);
   font-size: var(--fs-500);
@@ -149,7 +149,13 @@ aside {
   color: var(--clr-white);
   text-decoration: none;
   padding-block: var(--space-100);
-  /* background-color: yellow; */
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+.nav-item a:hover {
+  /* color: var(--clr-gray-200); */
+  background-color: var(--clr-primary-200);
 }
 
 .nav-item a .iconify {
@@ -377,6 +383,7 @@ input[type="search"]::-webkit-search-results-decoration {
 /********************************************/
 .btn {
   font-size: var(--fs-300);
+  font-weight: var(--fw-medium);
   border: none;
   background: none;
   cursor: pointer;

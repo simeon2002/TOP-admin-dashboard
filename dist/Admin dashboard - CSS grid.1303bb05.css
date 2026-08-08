@@ -215,7 +215,7 @@ aside {
 }
 
 .nav-container {
-  padding: var(--space-400) 0 0 var(--space-200);
+  padding: var(--space-400) var(--space-200) 0;
   color: var(--clr-white);
   background-color: var(--clr-primary-500);
   font-size: var(--fs-500);
@@ -237,7 +237,13 @@ aside {
   font-weight: var(--fw-bold);
   color: var(--clr-white);
   padding-block: var(--space-100);
+  border-radius: 2px;
   text-decoration: none;
+  transition: all .3s;
+}
+
+.nav-item a:hover {
+  background-color: var(--clr-primary-200);
 }
 
 .nav-item a .iconify {
@@ -464,6 +470,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .btn {
   font-size: var(--fs-300);
+  font-weight: var(--fw-medium);
   cursor: pointer;
   background: none;
   border: none;
