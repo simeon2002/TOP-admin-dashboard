@@ -1,0 +1,24 @@
+{
+  "name": "admin-dashboard---css-grid",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/simeon2002/TOP-admin-dashboard#readme",
+  "bugs": {
+    "url": "https://github.com/simeon2002/TOP-admin-dashboard/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simeon2002/TOP-admin-dashboard.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "modern-normalize": "^3.0.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
