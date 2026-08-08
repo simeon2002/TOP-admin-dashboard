@@ -12,17 +12,24 @@
     <div class="container">
       <header class="header-container">
         <section class="search-and-settings-container">
-          <input type="search" autocomplete="on">
+          <fieldset class="search-container">
+            <span class="iconify" data-icon="mdi-magnify"></span>
+            <input type="search" autocomplete="on" placeholder="Search...">
+          </fieldset>
           <ul class="list">
             <li class="list-item">
-              <a href="#">Icon</a>
+              <button class="btn btn-notification" aria-label="notifications">
+                <span class="iconify" data-icon="mdi-bell-outline"></span>
+              </button>
             </li>
-            <li class="list-item">profile pic</li>
-            <li class="list-item"><span></span></li>
+            <ul class="profile">
+              <li class="list-item"><img src="https://placehold.net/avatar.svg" alt="Profile picture" class="img-profile"></li>
+              <li class="list-item"><span>Morgan Oakley</span></li>
+            </ul>
           </ul>
         </section>
         <section class="actions-container">
-          <span class="icon profile-icon">Icon</span>
+          <img src="https://placehold.net/avatar.svg" alt="Profile picture" class="img-profile">
           <div class="name-container">
             <p>Hi there,</p>
             <p>Morgan Oakley (@morgan)</p>
@@ -38,18 +45,34 @@
       <nav class="nav-container">
         <h1 class="heading-primary nav-title"><span class="iconify" data-icon="mdi-view-dashboard"></span> Dashboard</h1>
         <ul class="nav-list">
-          <li class="nav-item"><a href="#">Home</a></li>
-          <li class="nav-item"><a href="#">Profile</a></li>
+          <li class="nav-item">
+            <a href="#"><span class="iconify" data-icon="mdi-home"></span>Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#"><span class="iconify" data-icon="mdi-account"></span>Profile</a>
+          </li>
           <li class="nav-item">
             <a href="#"><span class="iconify" data-icon="mdi-message"></span>Messages</a>
           </li>
-          <li class="nav-item"><a href="#">History</a></li>
-          <li class="nav-item"><a href="#">Tasks</a></li>
-          <li class="nav-item"><a href="#">Communities</a></li>
+          <li class="nav-item">
+            <a href="#"><span class="iconify" data-icon="mdi-history"></span>History</a>
+          </li>
+          <li class="nav-item">
+            <a href="#"><span class="iconify" data-icon="mdi-checkbox-marked-circle-auto-outline"></span>Tasks</a>
+          </li>
+          <li class="nav-item">
+            <a href="#"><span class="iconify" data-icon="mdi-account-group"></span>Communities</a>
+          </li>
           <ul class="nav-list">
-            <li class="nav-item"><a href="#">Settings</a></li>
-            <li class="nav-item"><a href="#">Support</a></li>
-            <li class="nav-item"><a href="#">Privacy</a></li>
+            <li class="nav-item">
+              <a href="#"><span class="iconify" data-icon="mdi-cog"></span>Settings</a>
+            </li>
+            <li class="nav-item">
+              <a href="#"><span class="iconify" data-icon="mdi-help"></span>Support</a>
+            </li>
+            <li class="nav-item">
+              <a href="#"><span class="iconify" data-icon="mdi-shield-check"></span>Privacy</a>
+            </li>
           </ul>
         </ul>
       </nav>
