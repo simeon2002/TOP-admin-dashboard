@@ -2,6 +2,8 @@
 
 This is an admin dashboard created with CSS grid, subgrid and CSS flexbox. A design system has been set up as well the colors have been chosen.
 
+Website: [Finished demo](https://simeon2002.github.io/TOP-admin-dashboard/)
+
 # Takeaways
 
 - At first, the structure was fully defined using the page-level grid on the `.container` wrapper class.

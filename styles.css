@@ -339,13 +339,15 @@ input[type="search"]::-webkit-search-results-decoration {
   margin-right: var(--space-100);
 }
 
+.btn-notification,
 .project-card__btn {
   transition:
     color 0.2s,
     transform 0.3s;
 }
 
-.project-card__btn:hover {
+.project-card__btn:hover,
+.btn-notification:hover {
   color: var(--clr-secondary-500);
   transform: translateY(-0.1rem);
 }
