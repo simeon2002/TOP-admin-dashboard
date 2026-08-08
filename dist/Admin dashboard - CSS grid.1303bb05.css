@@ -186,6 +186,7 @@ body {
 .iconify {
   width: 2.4rem;
   height: 2.4rem;
+  color: inherit;
   display: inline-block;
 }
 
