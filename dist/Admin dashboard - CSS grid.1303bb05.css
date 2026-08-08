@@ -134,12 +134,14 @@ h1, h2, h3, h4, h5, h6 {
 
 :root {
   --clr-white: #fff;
+  --clr-primary-200: #574db9;
   --clr-primary-500: #3a0ca3;
   --clr-secondary-500: #ff9105;
   --clr-gray-100: #f7f7f8;
   --clr-gray-200: #e2e0e6;
   --clr-gray-400: #b8b5bf;
   --clr-gray-500: #9996a2;
+  --clr-gray-700: #65636e;
   --clr-gray-900: #252429;
   --fw-bold: 700;
   --fw-semibold: 600;
@@ -178,6 +180,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
   font-size: var(--fs-400);
+  color: var(--clr-gray-900);
 }
 
 .iconify {
@@ -188,6 +191,7 @@ body {
 
 .container {
   gap: var(--space-400);
+  row-gap: var(--space-600);
   grid-template-rows: auto auto auto;
   grid-template-columns: 30rem 3fr 1fr;
   height: 100dvh;
@@ -198,8 +202,12 @@ main, .header-container {
   display: contents;
 }
 
-.search-and-settings-container, .actions-container {
+.search-and-settings-container {
   grid-column: 2 / -1;
+}
+
+.action-container {
+  display: contents;
 }
 
 .section-project {
@@ -322,14 +330,65 @@ input[type="search"]::-webkit-search-results-decoration {
   height: 3.2rem;
 }
 
+.profile-name {
+  font-weight: var(--fw-bold);
+}
+
 .list-item {
   flex-shrink: 0;
 }
 
+.welcome-container {
+  gap: var(--space-200);
+  align-items: center;
+  display: flex;
+}
+
+.welcome-container .img-profile {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+.welcome-box p:first-child {
+  margin-bottom: .2rem;
+}
+
+.welcome-box p {
+  font-weight: var(--fw-medium);
+  font-size: var(--fs-400);
+  line-height: 1.1;
+}
+
+.tag-name {
+  font-size: var(--fs-300);
+  color: var(--clr-gray-700);
+  font-weight: var(--fw-medium);
+}
+
+.actions-menu {
+  padding-right: var(--space-300);
+  gap: var(--space-200);
+  align-items: center;
+  display: flex;
+}
+
 .btn {
+  font-size: var(--fs-300);
   cursor: pointer;
   background: none;
   border: none;
+}
+
+.btn--primary {
+  background-color: var(--clr-primary-500);
+  color: var(--clr-white);
+  border-radius: 8px;
+  padding: .8rem 2rem;
+  transition: all .3s;
+}
+
+.btn--primary:hover {
+  background-color: #574db9;
 }
 
 li {
